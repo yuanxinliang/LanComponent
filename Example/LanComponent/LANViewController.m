@@ -7,6 +7,7 @@
 //
 
 #import "LANViewController.h"
+#import <LanComponent/LanTools.h>
 
 @interface LANViewController ()
 
@@ -17,6 +18,13 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    LanTools *tool = [[LanTools alloc] init];
+    NSLog(@"%@", tool);
+    tool.toolType = @"工具类";
+    NSLog(@"%@", tool);
+    [tool begin];
+    [tool end];
+    
 	// Do any additional setup after loading the view, typically from a nib.
 }
 

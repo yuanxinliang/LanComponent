@@ -1,0 +1,16 @@
+PODS:
+  - LanComponent (0.1.0)
+
+DEPENDENCIES:
+  - LanComponent (from `../`)
+
+EXTERNAL SOURCES:
+  LanComponent:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  LanComponent: 66c8635fab53cbde9088b2dfe9996cf10ae4b226
+
+PODFILE CHECKSUM: 979c7e7880053d06c448a5e09508aeb3f0c69f57
+
+COCOAPODS: 1.9.0.beta.3

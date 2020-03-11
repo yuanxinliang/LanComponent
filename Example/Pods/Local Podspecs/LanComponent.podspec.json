@@ -1,0 +1,22 @@
+{
+  "name": "LanComponent",
+  "version": "0.1.0",
+  "summary": "A short description of LanComponent.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/306619887@qq.com/LanComponent",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "306619887@qq.com": "306619887@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/306619887@qq.com/LanComponent.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "LanComponent/Classes/**/*"
+}

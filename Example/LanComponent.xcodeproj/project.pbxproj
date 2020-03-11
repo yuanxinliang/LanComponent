@@ -39,8 +39,8 @@
 /* Begin PBXFileReference section */
 		057E59E11F4BE6A7D8FDECAC /* Pods-LanComponent_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LanComponent_Tests.release.xcconfig"; path = "Target Support Files/Pods-LanComponent_Tests/Pods-LanComponent_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		0B375BF8A79C5F030CADA88D /* Pods_LanComponent_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LanComponent_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		10E67555496AC3E98186DF05 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		43B96BADE0C488EA4526742F /* LanComponent.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = LanComponent.podspec; path = ../LanComponent.podspec; sourceTree = "<group>"; };
+		10E67555496AC3E98186DF05 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		43B96BADE0C488EA4526742F /* LanComponent.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LanComponent.podspec; path = ../LanComponent.podspec; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* LanComponent_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LanComponent_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -63,7 +63,7 @@
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9EDA18C333B2B60F5099304D /* Pods-LanComponent_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LanComponent_Tests.debug.xcconfig"; path = "Target Support Files/Pods-LanComponent_Tests/Pods-LanComponent_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		A0A04941AF679F35BBD9395F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		A0A04941AF679F35BBD9395F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		E6B1EA7B4938D9BC670AF78E /* Pods_LanComponent_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LanComponent_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F017B746A7B4ACD96007FFEE /* Pods-LanComponent_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LanComponent_Example.debug.xcconfig"; path = "Target Support Files/Pods-LanComponent_Example/Pods-LanComponent_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		F06BF5B02EE737332CD73984 /* Pods-LanComponent_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LanComponent_Example.release.xcconfig"; path = "Target Support Files/Pods-LanComponent_Example/Pods-LanComponent_Example.release.xcconfig"; sourceTree = "<group>"; };
@@ -103,7 +103,6 @@
 				9EDA18C333B2B60F5099304D /* Pods-LanComponent_Tests.debug.xcconfig */,
 				057E59E11F4BE6A7D8FDECAC /* Pods-LanComponent_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -248,6 +247,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = "306619887@qq.com";
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = 7FB28K2298;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -258,6 +260,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -494,6 +497,7 @@
 			baseConfigurationReference = F017B746A7B4ACD96007FFEE /* Pods-LanComponent_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7FB28K2298;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "LanComponent/LanComponent-Prefix.pch";
 				INFOPLIST_FILE = "LanComponent/LanComponent-Info.plist";
@@ -510,6 +514,7 @@
 			baseConfigurationReference = F06BF5B02EE737332CD73984 /* Pods-LanComponent_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7FB28K2298;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "LanComponent/LanComponent-Prefix.pch";
 				INFOPLIST_FILE = "LanComponent/LanComponent-Info.plist";

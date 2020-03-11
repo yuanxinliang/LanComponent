@@ -1,0 +1,6 @@
+framework module LanComponent {
+  umbrella header "LanComponent-umbrella.h"
+
+  export *
+  module * { export * }
+}
