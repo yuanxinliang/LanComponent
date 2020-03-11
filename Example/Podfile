@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'LanComponent_Example' do
+  pod 'LanComponent', :path => '../'
+
+  target 'LanComponent_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
